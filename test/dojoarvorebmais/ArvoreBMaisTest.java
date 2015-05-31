@@ -268,7 +268,7 @@ public class ArvoreBMaisTest {
     /**
      * Testa busca 
      */
-    @Test
+    //@Test
     public void testaBusca1() throws FileNotFoundException, Exception {
         montaArvoreH1();
 
@@ -282,7 +282,7 @@ public class ArvoreBMaisTest {
     /**
      * Testa busca
      */
-    @Test
+    //@Test
     public void testaBusca2() throws FileNotFoundException, Exception {
         montaArvoreH1();
 
@@ -296,7 +296,7 @@ public class ArvoreBMaisTest {
     /**
      * Testa busca
      */
-    @Test
+    //@Test
     public void testaBusca3() throws FileNotFoundException, Exception {        
         montaArvoreH2();
 
@@ -310,7 +310,7 @@ public class ArvoreBMaisTest {
     /**
      * Testa busca
      */
-    @Test
+    //@Test
     public void testaBusca4() throws FileNotFoundException, Exception {
         montaArvoreH2();
 
@@ -324,7 +324,7 @@ public class ArvoreBMaisTest {
     /**
      * Testa busca
      */
-    @Test
+    //@Test
     public void testaBusca5() throws FileNotFoundException, Exception {
         montaArvoreH3();
 
@@ -338,7 +338,7 @@ public class ArvoreBMaisTest {
     /**
      * Testa busca
      */
-    @Test
+   //@Test
     public void testaBusca6() throws FileNotFoundException, Exception {
         montaArvoreH3();
 
@@ -352,7 +352,7 @@ public class ArvoreBMaisTest {
     /**
      * Testa inserção em árvore de altura H=1, sem particionamento
      */
-    //@Test
+    @Test
     public void testaInsere1() throws FileNotFoundException, Exception {
         montaArvoreH1();
         
@@ -374,7 +374,7 @@ public class ArvoreBMaisTest {
     /**
      * Testa inserção em árvore de altura H=2, sem particionamento
      */
-    //@Test
+    @Test
     public void testaInsere2() throws FileNotFoundException, Exception {
         montaArvoreH2();
 
